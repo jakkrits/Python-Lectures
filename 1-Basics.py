@@ -96,7 +96,7 @@ print(a is b)
 # Assigning multiple variables.
 a = b = c = d = e = f = "multiple vars"
 print(a, b, c, d, e, e is f)
-
+print(type(a))
 # Naming convention = 1. starts with letter or underscore 2. contains only letters or numbers.
 
 # Immutable Data 
